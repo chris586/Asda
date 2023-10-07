@@ -47,6 +47,7 @@ df_merge_values[4].fillna(0, inplace=True)
 df_merge_values[5].fillna(0, inplace=True)
 
 print(df_merge_values)
+#new one
 
 #df_merge_values['Values'] = df_merge_values[3].fillna(df_merge_values[4])
 df_merge_values['Values'] = df_merge_values[3] + df_merge_values[4] +df_merge_values[5]
